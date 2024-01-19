@@ -10,6 +10,7 @@ import 'package:instagram_clone/Application/Profile/profile_bloc.dart';
 import 'package:instagram_clone/Application/Search/search_bloc.dart';
 import 'package:instagram_clone/Application/login/login_bloc.dart';
 import 'package:instagram_clone/Application/signUp/signup_bloc.dart';
+import 'package:instagram_clone/Core/api.dart';
 import 'package:instagram_clone/Presentation/login_screen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:instagram_clone/Resources/authentication_methods.dart';
@@ -26,7 +27,7 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-      apiKey: 'AIzaSyDTs2hvkgmLuGy4_EzVxIM8hL-TEzumXJQ',
+      apiKey: googleApiKey,
       appId: '1:666170510847:web:2a17866298a9fcd6c9ebca',
       messagingSenderId: '666170510847',
       projectId: 'instagram-clone-d08d2',
