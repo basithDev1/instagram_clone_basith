@@ -1,1 +1,0 @@
-const webSize = 600;
