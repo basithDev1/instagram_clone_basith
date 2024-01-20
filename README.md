@@ -1,16 +1,30 @@
 # instagram_clone
 
-A new Flutter project.
+A Responsive Instgram Clone App
 
-## Getting Started
+## Features
+- Email & Password Authentication
+- Share Posts with Caption
+- Display Posts with Caption
+- Like & Comment on Posts
+- Search Users
+- Follow Users
+- Display User Posts, Followers & Following
+- EVERYTHING REAL TIME
+- Minimal Firebase reads
+- Sign Out
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+ | Profile Screen | Post-upload Screen | Search-user Screen |
+| -------------- | ------------------- | ------------------- |
+|<img width="200" height="350" src="https://github.com/basithDev1/instagram_clone_basith/blob/main/Screenshots/profile.png" alt="Profile-Screen">|   <img width="200" height="350" src="https://github.com/basithDev1/instagram_clone_basith/blob/main/Screenshots/post_upload.png" alt="PostUpload-Screen"> | <img width="200" height="350" src="https://github.com/basithDev1/instagram_clone_basith/blob/main/Screenshots/search_user.png" alt="SearchUser-Screen"> |
+ 
+## Tech Used
+**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Client**: Flutter, Bloc
+    
+## Feedback
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you have any feedback, please reach out to me at basithunny@gmail.com
